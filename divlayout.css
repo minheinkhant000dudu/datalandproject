@@ -1,0 +1,61 @@
+
+:root{
+	--yc: blue;
+}
+
+:root{
+	--colorcode: #0ff;
+}
+
+:root{
+	--gray: gray;
+}
+
+:root{
+	--gold: gold;
+}
+
+.div1{
+	width: 100px;
+	height: 100px;
+	float: left;
+
+	background-color: var(--yc);
+}
+
+.div2{
+	width: 200px ;
+	height: 200px;
+	float: left;
+
+	background-color: orange;
+    color: var(--gold);
+
+}
+
+.div3{
+	width: 200px ;
+	height: 200px;
+	float: left;
+
+	background-color: var(--colorcode);
+
+}
+
+.div4{
+	width: 300px ;
+	height: 300px;
+	float: right;
+
+	background-color: var(--gray);
+
+}
+
+.div5{
+	width: 400px ;
+	height: 400px;
+	float: right;
+
+	background-color: var(--gold);
+
+}

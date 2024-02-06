@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+/*.p1{*/
+	/*font-family: "Time New Roman";*/
+/*	font-family: Century,"Time New Roman",Arial;
+}
+*/
+/*.p2{
+	font-family: Arial;
+}*/
+
+/*body{
+	font-family: Arial,Century,"Time New Roman";
+}*/
+
+/*.p1{
+	font-size: 25px;
+	font-family: 'Stick', sans-serif;
+}
+.p2{
+	font-size: 34px;
+	font-weight: 900;
+	font-family: 'Ephesis', cursive;
+}
+
+.p3{
+	font-size: 34px;
+	font-weight: 600;
+	font-family: 'Akronim',cursive;
+}
+
+.p4{
+	font-size: 34px;
+	font-family: Exo, sans-serif;
+}*/
+
+/*body{
+	font-weight: 900;
+	font-size: 34px;
+	font-family: 'Italianno', cursive;
+}*/
+
+@font-face{
+	font-family: "min";
+	src: local("Stick-Regular"),url(../libs/fonts/stick/Stick-Regular.ttf) format("woff");
+}
+@font-face{
+	font-family: "hein";
+	src: local("Roboto-BoldItalic"), url("../libs/fonts/italiannno-regular/Italianno-Regular.ttf") format("woff");
+}
+@font-face{
+	font-family: "khant";
+	src: local("Roboto-BoldItalic"), url(../libs/fonts/Anton,Italianno,Roboto,Roboto_Condensed,Roboto_Slab,etc/Roboto/Roboto-BoldItalic.ttf);
+}
+.p1{
+	font-style: italic;
+	font-family: "min";
+}
+.p2{
+	font-style: italic;
+	font-family: "hein";
+}
+
+.p3{
+	font-family: "khant";
+}
+
+/*body{
+	font-family: "min";
+}*/
+
+.p4{
+	font-family: "Arial";
+	font-weight: 100;
+	font-style: italic;
+	/*text-transform: uppercase;*/
+	/*text-transform: lowercase;*/
+	/*text-transform: capitalize;*/
+	/*font-variant: small-caps;*/
+	/*text-indentation*/
+	/*font-variant: small-caps;*/
+	text-transform: capitalize;
+	text-indent: 50px;
+
+}
+
+.a1{
+	text-decoration: none;
+}
+.a1:visited{
+	color: red;
+}
+
+.a1:hover{
+	font-size: 34px;
+}
+
+#min{
+   /*text-transform: capitalize;*/
+   font-variant: small-caps;
+   letter-spacing: 4px;
+   text-align: center;
+   text-indent: 50px;
+}
+
+.menutext{
+	font-family: "Arial";
+	text-decoration: none;
+	background: #0f0;
+	color: #ffffff;
+
+	/*padding: 10px;*/
+	/*padding: 10px 20px;*/
+	/*padding: 10px 3px 15px 20px;*/
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 15px;
+
+	border-radius: 10px;
+
+	/*transition-property: background-color,color;
+	transition-duration: 2s,10s;*/
+
+
+}
+
+.menutext:hover{
+	
+	background-color: orange;
+	color: #001;
+}
+
+.imagedesign{
+	width: 80px;
+	height: 80px;
+
+	transition: all 1s;
+}
+
+.imagedesign:hover{
+	width: 100px;
+	height: 100px;
+}

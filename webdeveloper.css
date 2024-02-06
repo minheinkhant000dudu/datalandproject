@@ -1,0 +1,13 @@
+h1{
+	color:#0000ff;
+	font-size:40px;
+}
+
+#p{
+	line-height:12px;
+}
+
+.hyper{
+	color:darkseagreen;
+	text-shadow:-5px +5px 5px green;
+}

@@ -1,0 +1,92 @@
+
+
+.container2{
+	width: 320px;
+	height: 320px;
+
+	/*background-color: green;*/
+
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin: auto;
+	position: relative;
+
+}
+
+.container2 .c1{
+	width: 200px;
+	height: 200px;
+
+	background: black;
+	border-radius: 50%;
+
+	position: absolute;
+	z-index: 2;
+	
+}
+
+.container2 .c2{
+	width: 320px;
+	height: 320px;
+
+	/*background: linear-gradient(cyan,orange);*/
+	background-image: conic-gradient(
+		cyan 0,
+		#0f0 30%,
+		cyan 0,
+		#00f  70%,
+		cyan 0,
+		yellow  100%
+ 	);
+	border-radius: 55%;
+
+	position: absolute;
+	
+
+
+}
+
+.pointer-container{
+	width: 20px;
+	height: 200px;
+	background-color: grey;
+	z-index: 4;
+	transform-origin: bottom;
+	animation-name: myani;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-timing-function:linear;
+	position: absolute;
+	top: -40px;
+
+}
+
+.pointer{
+     width: 20px;
+     height: 20px;
+     background: red;
+     display: block;
+     z-index: 0;
+   
+
+     border-radius: 50%;
+
+}
+
+p{
+	color: #fff;
+	z-index: 1;
+}
+
+@keyframes myani{
+	from{
+		transform: rotate(90deg);
+	}
+
+	to{
+		transform: rotate(270deg);
+	}
+}

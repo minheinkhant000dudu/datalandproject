@@ -1,0 +1,103 @@
+/*
+ p,i{
+    color:red;
+} 
+*/
+
+.firstdiv{
+    width:200px;
+    height:200px;
+    /* background-color:cyan; */
+    background:#ff00ff;
+    color:rgb(218, 5, 5);
+    font-size:30px;
+   
+}
+
+.seconddiv{
+    width:500px;
+    height:1000px;
+    /* background:orange;
+    color:black; */
+     background-image:url("../image/cssanimationlogo.png");
+     background-image:url(../image/cssanimationlogo.png);
+     background-image:linear-gradient(rgba(199,134,127,0.3),rgba(199,134,127,1.00)),url('../image/cssanimationlogo.png');
+    /* background:url('../image/cssanimationlogo.png');*/
+     /* background-repeat:no-repeat; */
+     /* /* background-repeat:repeat-x; */
+     background-repeat:repeat-y; 
+     background-position:center;
+
+     border:2px solid red;
+     
+     
+    
+
+}
+
+    
+   /* background:red;*/
+   
+    /* background:linear-gradient(red,rgb(145, 158, 145),blue,green,) */
+    /* background-image:linear-gradient(red,blue); */
+    /* background-image:red; */
+    /* background-color:linear-gradient(red,green) */
+    /* background:linear-gradient(
+        120deg,
+        red,
+        blue,
+        green
+    ) */
+    /* background:radial-gradient(
+        red,
+        green,
+        blue,
+        violet,
+        cyan,
+        pink,
+        black,
+        silver,
+        gold);
+ */
+    /* background-color:green;
+    ;background-image:blue; */
+    /* background:cyan;
+      background-image:url("../image/bm.jpg");
+    background-repeat:repeat-y; 
+    background-position:center;
+    background-color:url("../image/bm.jpg") */
+    /* background:url("../image/bm.jpg") */
+    /* background:red; */
+    /* background:linear-gradient(
+        30deg,
+        red,
+        green,
+        blue
+        ); */
+
+        /* background-image:radial-gradient(cyan,green); */
+        /*background-color:linear-gradient(violet,silver);*/
+
+
+
+
+#kk{
+    width: 400px;
+    height: 400px;
+    color: green;
+    background:url("../image/bg2.jpg"),linear-gradient(
+        rgba(255,255,29,0.4),
+        rgba(23,255,200,0.4)
+        );
+    
+       
+        
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 26px;
+    text-align: center;
+    line-height: 300px;
+
+
+}

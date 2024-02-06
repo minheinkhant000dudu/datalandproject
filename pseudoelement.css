@@ -1,0 +1,27 @@
+/*.paragraph::first-line{
+	color: red;
+	 font-weight: 600;*/
+	/*text-decoration: line-through;*/
+/*}*/
+
+/*.paragraph::before{
+	content: "ABC";
+}*/
+
+/*.paragraph::after{
+	content: " MIN HEIN KHANT";
+	font-weight: 900;
+}*/
+
+/*.paragraph::first-letter{
+	font-size: 30px;
+}*/
+
+/*.paragraph::selection{
+	color: red;
+	background: cyan;
+}*/
+
+.paragraph::first-letter{
+	font-size: 20px;
+}

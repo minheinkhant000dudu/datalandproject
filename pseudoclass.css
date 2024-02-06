@@ -1,0 +1,115 @@
+.div1{
+
+	  width: 100px;
+	  height: 60px;
+      background-color: #00ff00;
+}
+
+
+/*.div1:first-child{
+	width: 100px;
+	height: 60px;
+	background: red;
+	color: blue;
+}*/
+
+/*.div1:first-of-type{
+	width: 100px;
+	height: 60px;
+	background: red;
+}*/
+
+/*.div1:last-child{
+	width:100px;
+	height: 60px;
+	background-color: red;
+}*/
+
+/*.div1:last-of-type{
+	width: 100px;
+	height: 60px;
+	background: cyan;
+}*/
+
+/*.div1:nth-of-type(2){
+	width: 200px;
+	height: 34px;
+	background: brown;
+}*/
+
+/*.div1:nth-of-type(even){
+
+	background: red;
+
+}*/
+
+/*.div1:nth-of-type(odd){
+	background: blue;
+}*/
+/*
+.div1:nth-child(7){
+	background-color: yellow;
+}*/
+
+/*.div1:nth-of-type(4){
+	background: red;
+}*/
+
+/*.div1:nth-child(3){
+	background: red;
+}*/
+
+/*.div1:first-child{
+	background: red;
+}*/
+
+/*.div1:nth-child(odd){
+	background: red;
+}*/
+
+/*.div1:nth-of-type(even){
+	background: red;
+}*/
+
+/*.div1:nth-child(odd){
+	background: red;
+}*/
+
+/*.div1:first-child{
+	background: yellow;
+}
+
+.div1:first-of-type{
+	background: red;
+}*/
+/*
+.div1:last-child{
+	background: yellow;
+}
+
+.div1:nth-of-type(3){
+	background: cyan;
+}
+
+.div1:nth-of-type(4){
+	background: pink;
+}
+*/
+/*.div1:first-child{
+	background: red;
+}*/
+
+.div1:first-of-type{
+	background: cyan;
+}
+
+.div1:last-child{
+	background: blue;
+}
+
+.div1:nth-child(3){
+	background: black;
+}
+.div1:nth-child(3){
+	background: black;
+}

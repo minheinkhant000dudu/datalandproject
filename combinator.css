@@ -1,0 +1,113 @@
+*::selection{
+	background: pink ;
+
+}
+
+/*tag to tag(element selector)*/
+
+div p{
+	font-size: 20px;
+	font-weight: 900;
+
+}
+
+/*tags to tag(element selector)*/
+
+div p span{
+	color: #f0f;
+}
+
+/*tag to class*/
+
+div .mongodb{
+	font-family: monospace;
+	font-size: 30px;
+	letter-spacing: 3px;
+}
+
+/*multi tags to class*/
+
+div span .java{ 
+   color: #0f0;			
+}
+
+/*multi tags to same class*/
+
+div span p.kotlin{
+   text-transform: uppercase;
+}
+
+/*multi classes to class*/
+
+.javascript .html .css3{
+	font-style: italic;
+}
+
+/*tag to multiclass*/
+
+div .flutter .flutter2{
+	/*text-transform: uppercase;
+	text-transform: lowercase;
+	text-transform: capitalize;*/
+	font-variant: small-caps;
+}
+
+/*class to tag*/
+
+.java div{
+	letter-spacing: 2px;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+/*class to multitags*/
+
+.python div i{
+	color: red;
+}
+
+/*same class*/
+
+.kotlin.swift{
+	text-indent: 50px;
+}
+
+/*class to same class*/
+
+.minhein ul li.fullstack{
+	color: red;
+}
+
+.minhein ul li.frontend{
+	color: #ff0;
+}
+
+.minhein ul li.backend{
+	color: #0ff;
+}
+
+
+/*class to tag by group selectors*/
+
+.kusan b,.kusan p{
+  color: #999;
+}
+
+/*child selector (>)*/
+
+div.div1 > span{
+	color: #f00;
+}
+
+/*Slibing selector..>general slibing slector and adjacent slibing selector*/
+
+/*general slibing selector(~)*/
+.mysql ~ p{
+	color: pink;
+}
+
+/*adjacent sibling selector(+)*/
+
+.minmysql1 + p{
+	color: #00f;
+}

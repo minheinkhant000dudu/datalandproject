@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+:root{
+	--wcc: #f0f0f0;
+	--gyc: #777;
+	--dbc: #0c09b8;
+}
+*{
+	
+}
+
+
+body{
+	font-family: 'Estonia', cursive;
+	height: 100vh;
+	font-weight: 900;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	
+}
+
+.container{
+	width: 480px;
+	background: var(--wcc);
+	box-shadow: 0 2px 15px rgba(0,0,0,0.3);
+}
+
+.container h2{
+	text-align: center;
+	margin-bottom: 0;
+
+}
+
+.container .form{
+	padding: 30px 40px;
+	box-sizing: border-box;
+	
+}
+
+.container .form-group{
+	padding: 10px;
+	margin: 30px;
+}
+
+.container .form-group label{
+       color: var(--gyc);
+       display: block;
+       margin-bottom: 5px;
+}
+
+.container .form-group input{
+	font-family: inherit;
+	width: 100%;
+	padding: 6px;
+}
+
+.form-group .form-control::placeholder{
+	font-family: inherit;
+	color: red;
+}
+
+.form .btn{
+	font-family: inherit;
+	width: 100%;
+	font-size: 16px;
+	color: #fff;
+	background: var(--dbc);
+	padding: 10px;
+	border: 0;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+/*.form .btn:hover{
+	background-color: orange;
+}*/
+
+
+.form .btn:active{
+	background-color: cyan;
+}
+
